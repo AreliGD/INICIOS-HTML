@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modelo de Caja en CSS</title>
+		<link rel="stylesheet" href="css/box-model.css" />
+	</head>
+	<body>
+		<h1>Modelo de Caja en CSS</h1>
+		<ol>
+			Modelo de Caja:
+			<p>
+				Es la forma en la que css ve a los elementos de html, como
+				sifueran cajas con las siguientes propiedades:
+			</p>
+			<li>
+				contenido(content): El contenido (texto) del elemento html,
+				tomando en cuenta sus dimensiones (width & height)
+			</li>
+			<li>borde:(border): Lo que delimita cada uno de elementos html</li>
+			<li>
+				relleno:(padding): Son las distancias internas (La distancia del
+				borde al contenido)
+			</li>
+			<li>
+				margen:(margin): Son las distancias externas (la distancia entre
+				elementos html y sus elementos hermanos o padres)
+			</li>
+		</ol>
+		<ol>
+			<p>
+				Dentro del modelo de caja hay que considerar que una caaja
+				tendra 4 lados
+			</p>
+			<li>Arriba (top)</li>
+			<li>Derecha (rigth)</li>
+			<li>Abajo (bottom)</li>
+			<li>Izquierda (left)</li>
+		</ol>
+		<p>
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam at,
+			praesentium labore officiis ad culpa, illum, blanditiis enim quo
+			atque ullam id? Omnis eum modi esse voluptatem consequuntur nam
+			quia!
+		</p>
+		<hr />
+		<div class="caja-uno">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cum
+			tempora quos tenetur quaerat? Odit earum repellendus aperiam
+			necessitatibus vero eos a culpa at, libero vel accusamus voluptate,
+			amet harum!
+		</div>
+		<div class="caja-dos">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cum
+			tempora quos tenetur quaerat? Odit earum repellendus aperiam
+			necessitatibus vero eos a culpa at, libero vel accusamus voluptate,
+			amet harum!
+		</div>
+		<hr />
+
+		<h2>Línea VS Cajas de Bloque</h2>
+		<span class="caja-linea">Esto es una caja de línea</span>
+		<span>Esto es una span</span>
+		<div class="caja-bloque">Esto es una caja de bloque</div>
+		<hr />
+		<h2>Propiedad Display</h2>
+		<div class="caja-none">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse
+			placeat exercitationem consectetur nihil corporis laborum et eius?
+			Corrupti sint iure labore! Delectus dicta sunt quod! Optio quidem
+			sapiente asperiores?
+		</div>
+		<span class="caja-linea-bloque">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+			saepe exercitationem veritatis eveniet provident? Quae dolorum
+			consectetur perspiciatis doloremque ipsam molestiae, architecto, et
+			sed adipisci debitis iste sit reprehenderit accusantium.
+		</span>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+			tempore nobis ex magnam error animi. Officiis, aliquid? Qui facere
+			quibusdam minima, recusandae maiores, debitis cum iure fuga beatae
+			eum minus!
+		</p>
+		<ul>
+			<!-- ul>li*4[item $] -->
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+			<li>item 4</li>
+		</ul>
+
+		<ol>
+			<!-- ol>li*4{item $} -->
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+			<li>item 4</li>
+		</ol>
+		<br />
+		<table>
+			<tr>
+				<td>Celda 1</td>
+				<td>Celda 2</td>
+				<td>Celda 3</td>
+			</tr>
+			<tr>
+				<td>Celda 4</td>
+				<td>Celda 5</td>
+				<td>Celda 6</td>
+			</tr>
+			<tr>
+				<td>Celda 7</td>
+				<td>Celda 8</td>
+				<td>Celda 9</td>
+			</tr>
+		</table>
+		<hr />
+
+		<h2>Propiedad Visibility</h2>
+		<div class="caja-none">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+			perferendis fugiat accusantium temporibus accusamus soluta earum sit
+			sint necessitatibus dolorum consequatur odit, esse non similique ea
+			ipsum quidem. Nostrum, iure.
+		</div>
+		<div class="caja-hidden">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+			perferendis fugiat accusantium temporibus accusamus soluta earum sit
+			sint necessitatibus dolorum consequatur odit, esse non similique ea
+			ipsum quidem. Nostrum, iure.
+		</div>
+		<hr />
+
+		<h2>Propiedad Overflow</h2>
+		<p class="overflow">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+			dolorum vel odio blanditiis earum dolores error eius. Velit quam ex
+			tenetur corrupti eius minima ad maxime quisquam omnis. Libero,
+			debitis.
+		</p>
+
+		<hr />
+		<h2>Tamaño de cajas</h2>
+		<div class="box-sizing-content">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+			veritatis, sequi amet maxime quia ea ipsam itaque debitis odit dolor
+			aliquam laudantium illo ipsa explicabo error rerum quos voluptate
+			fuga!
+		</div>
+		<div class="box-sizing-border">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+			veritatis, sequi amet maxime quia ea ipsam itaque debitis odit dolor
+			aliquam laudantium illo ipsa explicabo error rerum quos voluptate
+			fuga!
+		</div>
+		<article class="container-col-3">
+			<section>Sección 1</section>
+			<section>Sección 2</section>
+			<section>Sección 3</section>
+		</article>
+		<hr />
+		<h2>Propiedad Float & Clear</h2>
+		<article class="container-floats">
+			<section class="float-rigth">
+				Este elemento flota a la derecha
+			</section>
+			<section class="float-left">
+				Este elemento flota a la izquierda
+			</section>
+		</article>
+		<div class="clearfix"></div>
+		<article>
+			<section class="">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+				excepturi ipsam fugit accusamus facere asperiores, temporibus
+				dolorum eaque sit ipsa culpa suscipit quisquam voluptatibus
+				blanditiis molestias, aliquam totam consequuntur? Nihil.
+			</section>
+		</article>
+		<hr />
+		<h2>Colapso de Márgenes Verticales</h2>
+		<div>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+			adipisci, sit ratione delectus accusantium, minima dolores similique
+			excepturi earum ut facilis molestias suscipit magni modi a non
+			inventore libero. Obcaecati.
+		</div>
+		<article class="margin-collaps">
+			<section>sección 1</section>
+			<section>Sección 2</section>
+			<section>
+				<span>Span1</span><span>Span2</span><span>Span3</span>
+			</section>
+		</article>
+		<hr />
+
+		<h2>Centrado de cajas</h2>
+		<article class="sitio-web">
+			<header>Cabecera</header>
+			<main>Contenido principal</main>
+			<footer>Pie de pagina</footer>
+		</article>
+
+		<a href="index CSS.html#temario-css">⬆️ Ir a inicio</a>
+
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	</body>
+</html>

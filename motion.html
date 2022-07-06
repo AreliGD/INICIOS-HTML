@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movimiento en CSS</title>
+		<link rel="stylesheet" href="CSS/motion.css" />
+	</head>
+	<body>
+		<h1>Movimiento en CSS</h1>
+		<hr />
+		<section class="transitions">
+			<h2>Transiciones</h2>
+			<div class="box"></div>
+			<article class="card">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+		</section>
+		<hr />
+		<section class="transform">
+			<h2>Transformaciones</h2>
+			<h3>Transformaciones en 2D</h3>
+			<article class="card transform-2d">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+
+			<h3>Transformaciones en 3D</h3>
+			<article class="card transform-3d">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+			<h3>Origen de la transformción</h3>
+			<article class="card transform-origin">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+			<h3>Flip Cards</h3>
+			<article class="flip-card-1">
+				<div class="flip-face flip-front">
+					<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+				</div>
+				<div class="flip-face flip-back">
+					<img src="img/png.jpg" alt="minions" />
+				</div>
+			</article>
+			<article class="flip-card-2">
+				<div class="flip-face flip-front">
+					<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+				</div>
+				<div class="flip-face flip-back">
+					<img src="img/png.jpg" alt="minions" />
+				</div>
+			</article>
+		</section>
+		<hr />
+		<section>
+			<h2>Animaciones</h2>
+			<article class="card my-animation">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+			<article class="card my-animation-2">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+			<article class="card animation-multiple">
+				<img src="img/puesta-sol.jpg" alt="Puesta de Sol" />
+			</article>
+		</section>
+		<hr />
+		<section class="motion-examples">
+			<h2>Ejemplo de Efectos de Movimiento en CSS</h2>
+			<h3>FadeIn/FadeOut</h3>
+			<div class="fade-in">✨</div>
+			<div class="fade-out">✨</div>
+			<h3>Sacudir</h3>
+			<div class="shake">👻</div>
+			<h3 class="pulse">❤️❤️❤️</h3>
+			<h3>Dibujando y animando con CSS</h3>
+			<h4>Corazón</h4>
+			<div class="pulse">Eres el CSS de mi HTML</div>
+			<div class="heart"></div>
+			<h4>Spinner/Loader</h4>
+			<div class="spinner"></div>
+			<h3>Botones Animados</h3>
+			<button class="btn anim-bottom to-left">Animación Izquierda</button>
+			<button class="btn anim-bottom to-center">Animación Centro</button>
+			<button class="btn anim-bottom to-rigth">Animación Derecha</button>
+			<button class="btn anim-bg-gradient">Fondo con Gradiente</button>
+			<h3>Menú de Pestañas (Tabs)</h3>
+			<nav class="tabs-menu">
+				<input type="radio" id="tab-1" name="tabs" />
+				<label for="tab-1">Sección 1</label
+				><input type="radio" id="tab-2" name="tabs" />
+				<label for="tab-2">Sección 2</label
+				><input type="radio" id="tab-3" name="tabs" />
+				<label for="tab-3">Sección 3</label
+				><input type="radio" id="tab-4" name="tabs" />
+				<label for="tab-4">Sección 4</label>
+				<div class="tab-bg-hover"></div>
+			</nav>
+			<h3>Menu of canvas</h3>
+			<input type="checkbox" class="off-canvas-btn" />
+			<label class="off-canvas-burger"></label>
+			<nav class="off-canvas-menu">
+				<div class="off-canvas-menu-container">
+					<a href="#" class="off-canvas-link">Sección 1</a>
+					<a href="#" class="off-canvas-link">Sección 2</a>
+					<a href="#" class="off-canvas-link">Sección 3</a>
+					<a href="#" class="off-canvas-link">Sección 4</a>
+					<a href="#" class="off-canvas-link">Sección 5</a>
+				</div>
+			</nav>
+			<h3>Ventana Modal</h3>
+			<a href="#modal-1">Abrir Modal</a>
+			<article id="modal-1" class="modal">
+				<div class="modal-container">
+					<a href="#cerrar" class="modal-close">X</a>
+					<h2>Esto es una ventana modal</h2>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Optio mollitia hic quia similique voluptatem,
+						exercitationem debitis voluptate esse quam possimus nam
+						nemo dolor explicabo nisi nihil iusto illo, vitae
+						asperiores.
+					</p>
+					<ul>
+						<li><a href="">Enlace</a></li>
+						<li><a href="">Enlace</a></li>
+						<li><a href="">Enlace</a></li>
+						<li><a href="">Enlace</a></li>
+						<li><a href="">Enlace</a></li>
+						<li><a href="">Enlace</a></li>
+					</ul>
+				</div>
+			</article>
+			<h3>Star Wars Intro</h3>
+			<article class="star-wars">
+				<div class="star-wars-container">
+					<h2>Episodio III</h2>
+					<h3>Subtitulo</h3>
+
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Sit modi dolores nam laboriosam. Consequatur, cum
+						facere possimus sit veniam, in fugiat quo id non
+						repellat ex quibusdam doloribus, nemo impedit?
+					</p>
+					<p>
+						Ex eius impedit libero aut ipsa ipsam! Architecto earum
+						ullam beatae non enim magnam odio soluta pariatur ab,
+						quasi ducimus reiciendis maxime rem quod eius nobis,
+						dolor a eum eos!
+					</p>
+					<p>
+						Quas provident corporis enim cumque! Laudantium neque
+						inventore voluptatibus libero, molestias possimus.
+						Inventore, voluptates cumque commodi officiis accusamus
+						molestiae eaque voluptatem ipsam repudiandae,
+						accusantium quae quo suscipit laboriosam illo dicta.
+					</p>
+				</div>
+			</article>
+		</section>
+
+		<a href="index CSS.html#temario-css">⬆️ Ir a inicio</a>
+	</body>
+</html>

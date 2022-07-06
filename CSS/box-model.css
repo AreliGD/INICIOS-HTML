@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+}
+
+h1{
+    width: 400px;
+    height: 200px;
+    /*Propiedades shorthand */
+    border-color: green;
+    border-top-color: red;
+    border-width: thick;
+    border-style: solid;
+}
+
+/* thin - delgado = 1 px; medium - 3px, thick - 5 px */
+
+.caja-uno,
+.caja-dos {
+    /* Esto aplica para margin y padding
+    1 valor= aplicar a los 4 lados
+    2 valores=aplicar primer valor es para los lados verticales(top,bottom)
+    segundo valor, es para los lados horizontales (left y rigth
+    3 valores= aplicar primer valor al top, segundo a los lados horizontales y tercero a bottom
+    4 valores= primer valor para top. segundo valor para rigth, tercer lugar bottom y cuarto valor para left*/
+    background-color: chocolate;
+    border: medium solid orange;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px 40px;
+    margin: 40px 20px;
+    padding: 0 40px 20px;
+    margin: 50px 30px 0;
+    padding: 0 40px 20px 50px;
+    margin: 100px 50px 30px 0;
+}
+
+.caja-linea,
+.caja-bloque{
+    background-color: darkcyan;
+    color: white;
+    width: 500px;
+    height: 250px;
+    border: medium solid black;
+    padding: 16px;
+}
+
+.caja-bloque {
+    margin: 32px;
+    display:block;
+}
+
+.caja-linea {
+    margin: 48px;
+    display: inline;
+}
+
+
+/* Propiedad display
+inline
+block
+inline-block
+dimensiones
+none
+table
+list-item
+flex ver curso de flexbox
+grid ver curso de grid */
+
+.caja-hidden,
+.caja-none,
+.caja-linea-bloque {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 16px;
+    width: 600px;
+    height: 300px;
+    border: thin solid black;
+}
+
+.caja-linea-bloque{
+    display: inline-block;
+}
+
+.caja-none {
+    display: none;
+}
+
+.caja-hidden{
+    visibility: hidden;
+}
+
+.overflow{
+    background-color: darkturquoise;
+    width: 200px;
+    height: 100px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+/*  overflow-y: scroll;
+    overflow-x: scroll;*/
+}
+
+.box-sizing-border,
+.box-sizing-content{
+    background-color: deepskyblue;
+    box-sizing: content-box;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    border: thick solid black;
+}
+
+.box-sizing-border{
+    box-sizing: border-box;
+}
+
+.container-col-3 {
+    background-color: burlywood;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.container-col-3> *{
+    box-sizing: border-box;
+    width: 200px;
+    border: thin solid red;
+    float: left;
+}
+
+/* se coloca al inico ya que es una etiqueta de reseteo */
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container-floats {
+    background-color: cornflowerblue;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-rigth {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.margin-collaps{
+    background-color: skyblue;
+}
+
+.margin-collaps section{
+    border: thin solid black;
+    margin-top: 16px;
+}
+
+.margin-collaps span{
+    border: thin solid black ;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.sitio-web{
+    border: thin solid black;
+    background-color: thistle;
+    width: 800px;
+    height: 1000px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}

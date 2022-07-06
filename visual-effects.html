@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es" class="dark-modes">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Efectos visuales en CSS</title>
+		<link rel="stylesheet" href="CSS/visual-effects.css" />
+	</head>
+	<body>
+		<h1>Efectos visuales en CSS</h1>
+		<hr />
+		<h2>Sombras</h2>
+		<div class="box shadows"><p>Sombras</p></div>
+		<div class="box shadows-multiple">
+			<p>Sombras</p>
+		</div>
+		<div class="box drop-shadow">
+			<img src="img/arbol.png" alt="niño y árbol" />
+		</div>
+		<hr />
+		<h2>Degradado</h2>
+		<h3>lineal</h3>
+		<div class="box linear-gradient"></div>
+		<h3>Radial</h3>
+		<div class="box radials-gradients"></div>
+		<h3>Cónicos</h3>
+		<div class="box conics-gradients"></div>
+		<h3>Repetir Degradados</h3>
+		<div class="box repeat-gradient-linear"></div>
+		<div class="box repeat-gradient-radial"></div>
+		<div class="box repeat-gradient-conic"></div>
+		<h3>Gráficaas con Degradado</h3>
+		<div class="box chart-gradient"></div>
+		<div class="box donut-gradient"></div>
+		<hr />
+		<h2>Filtro</h2>
+		<h3>Filtros</h3>
+		<article class="card">
+			<img class="filter" src="img/puesta-sol.jpg" alt="puesta de sol" />
+		</article>
+		<h3>Filtros Múltiples</h3>
+		<article class="card">
+			<img
+				class="filters-multiples"
+				src="img/puesta-sol.jpg"
+				alt="puesta de sol"
+			/>
+		</article>
+		<h3>Filtros a fondos</h3>
+		<article class="card relative">
+			<img src="img/puesta-sol.jpg" alt="puesta de sol" />
+			<div class="backdrop-filter"><h4>Puesta del Sol</h4></div>
+		</article>
+		<h3>Filtros Multiples a Fondos</h3>
+		<article class="card relative backdrop-filter-multiple">
+			<img src="img/puesta-sol.jpg" alt="puesta de sol" />
+			<div class="backdrop-filter">
+				<h4>Puesta del Sol</h4>
+			</div>
+		</article>
+		<h3>Modo DarkLigthcon filtros</h3>
+		<article class="card">
+			<img src="img/puesta-sol.jpg" alt="puesta del sol" />
+		</article>
+		<article class="card">
+			<img src="img/flower-svgrepo-com.svg" alt="puesta del sol" />
+		</article>
+		<hr />
+		<h2>Modos de Mezcla</h2>
+		<h3>Sobre imagenes</h3>
+		<article class="card relative blend-modes">
+			<img src="img/puesta-sol.jpg" alt="puesta del sol" />
+			<img class="absolute" src="img/gatito.png" alt="gatitol" />
+		</article>
+		<h3>sobre imagen de fondo(background-image)</h3>
+		<article class="card bg-blend-mode"></article>
+		<hr />
+		<h2>Máscaras</h2>
+		<article class="card clip-path">
+			<img src=".//img/puesta-sol.jpg" alt="puesta de sol" />
+		</article>
+		<hr />
+		<h2>Formas</h2>
+		<article class="shapes">
+			<h3>Ejemplos de Formas y Siluetas entre textos e imagenes</h3>
+			<img
+				src="img/puesta-sol.jpg"
+				alt="Puesta deel sol"
+				class="float-left shape-1"
+			/>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+			<img
+				src="img/puesta-sol.jpg"
+				alt="Puesta del sol"
+				class="float-rigth shape-2"
+			/>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+			<img
+				src="img/puesta-sol.jpg"
+				alt="Puesta deel sol"
+				class="float-left shape-3"
+			/>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Dolorum libero labore numquam aperiam, exercitationem ipsum
+				corporis quasi sapiente sed ex mollitia cupiditate nobis totam
+				odit quia perspiciatis esse doloremque ullam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+				error quibusdam at enim ipsam hic, aspernatur ipsum corrupti,
+				quasi vitae debitis dolor libero repellat sit similique, odio
+				incidunt. Cum, itaque.
+			</p>
+		</article>
+		<a href="index CSS.html#temario-css">⬆️ Ir a inicio</a>
+	</body>
+</html>
