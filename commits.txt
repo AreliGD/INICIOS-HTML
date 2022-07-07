@@ -1,0 +1,17 @@
+commit e8fb043cc8bd8e222e090db92985d24fef384ae9
+Author: Areli <areligd1998@gmail.com>
+Date:   Wed Jul 6 15:27:07 2022 -0500
+
+    se cambió el color rebeca purple en el css y se agregó la imagen cielo al html
+
+commit 450398fb67ad8722a62a1f082ea7b3068d2d0694
+Author: Areli <areligd1998@gmail.com>
+Date:   Wed Jul 6 15:20:47 2022 -0500
+
+    Agregue mi nombre en el footer
+
+commit 9e1741dbf3986ee69b37fc5a962ca06a1b229d4a
+Author: Areli <areligd1998@gmail.com>
+Date:   Wed Jul 6 14:56:16 2022 -0500
+
+    Iniciamos
