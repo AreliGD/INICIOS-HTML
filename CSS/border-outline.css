@@ -47,3 +47,11 @@
 	outline-offset: 3rem;
 	outline-offset: -3rem;
 }
+
+.border-radius-5 {
+	width: 400px;
+	height: 200px;
+	background-color: pink;
+	border-style: double;
+	border-color: aqua;
+}
